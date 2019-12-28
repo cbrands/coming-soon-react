@@ -1,1 +1,22 @@
+.logo {
+  margin-top: 80px;
+}
 
+h1 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.bold {
+  font-weight: 600;
+  color: black;
+}
+
+.text {
+
+}
+
+.illustration {
+  width: 90%;
+}
