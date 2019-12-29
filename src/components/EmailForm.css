@@ -1,10 +1,8 @@
 .email-form {
   margin: 50px auto 90px auto;
   width: 80%;
-}
-
-.email-input {
-  margin-bottom: 20px;
+  max-width: 600px;
+  padding-bottom: 20px;
 }
 
 .email {
@@ -38,6 +36,7 @@
 }
 
 .submit {
+  margin-top: 20px;
   outline: 0;
   text-transform: capitalize;
   width: 100%;
@@ -60,6 +59,24 @@
 
 @media (min-width: 700px) {
   .email-form {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+      "input submit"
+      "warning .";
+    grid-column-gap: 20px;
+  }
+
+  .email {
+    grid-area: input;
+  }
+
+  .validation-error {
+    grid-area: warning;
+  }
+
+  .submit {
+    margin-top: 0;
+    grid-area: submit;
   }
 }
