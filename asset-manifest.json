@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.00b99afb.chunk.css",
-    "main.js": "/static/js/main.51c279a2.chunk.js",
-    "main.js.map": "/static/js/main.51c279a2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.091cc426.js",
-    "runtime-main.js.map": "/static/js/runtime-main.091cc426.js.map",
-    "static/js/2.c337a013.chunk.js": "/static/js/2.c337a013.chunk.js",
-    "static/js/2.c337a013.chunk.js.map": "/static/js/2.c337a013.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.86eb5885d71746954012c6bea98b5e3b.js": "/precache-manifest.86eb5885d71746954012c6bea98b5e3b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.00b99afb.chunk.css.map": "/static/css/main.00b99afb.chunk.css.map",
-    "static/js/2.c337a013.chunk.js.LICENSE": "/static/js/2.c337a013.chunk.js.LICENSE",
-    "static/media/illustration-dashboard.png": "/static/media/illustration-dashboard.92dd5c8f.png",
-    "static/media/logo.svg": "/static/media/logo.ddf22f0b.svg"
+    "main.css": "/cbrands/coming-soon-react/static/css/main.00b99afb.chunk.css",
+    "main.js": "/cbrands/coming-soon-react/static/js/main.b5397e18.chunk.js",
+    "main.js.map": "/cbrands/coming-soon-react/static/js/main.b5397e18.chunk.js.map",
+    "runtime-main.js": "/cbrands/coming-soon-react/static/js/runtime-main.36663f9f.js",
+    "runtime-main.js.map": "/cbrands/coming-soon-react/static/js/runtime-main.36663f9f.js.map",
+    "static/js/2.635253fe.chunk.js": "/cbrands/coming-soon-react/static/js/2.635253fe.chunk.js",
+    "static/js/2.635253fe.chunk.js.map": "/cbrands/coming-soon-react/static/js/2.635253fe.chunk.js.map",
+    "index.html": "/cbrands/coming-soon-react/index.html",
+    "precache-manifest.b2bc7e2a49865f1cb22077893411b22c.js": "/cbrands/coming-soon-react/precache-manifest.b2bc7e2a49865f1cb22077893411b22c.js",
+    "service-worker.js": "/cbrands/coming-soon-react/service-worker.js",
+    "static/css/main.00b99afb.chunk.css.map": "/cbrands/coming-soon-react/static/css/main.00b99afb.chunk.css.map",
+    "static/js/2.635253fe.chunk.js.LICENSE": "/cbrands/coming-soon-react/static/js/2.635253fe.chunk.js.LICENSE",
+    "static/media/illustration-dashboard.png": "/cbrands/coming-soon-react/static/media/illustration-dashboard.92dd5c8f.png",
+    "static/media/logo.svg": "/cbrands/coming-soon-react/static/media/logo.ddf22f0b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.091cc426.js",
-    "static/js/2.c337a013.chunk.js",
+    "static/js/runtime-main.36663f9f.js",
+    "static/js/2.635253fe.chunk.js",
     "static/css/main.00b99afb.chunk.css",
-    "static/js/main.51c279a2.chunk.js"
+    "static/js/main.b5397e18.chunk.js"
   ]
 }
