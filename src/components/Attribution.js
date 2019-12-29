@@ -9,7 +9,7 @@ const Attribution = () =>  {
         Coded by <a href="https://github.com/cbrands/coming-soon-react">Charles Brands</a>.
       </p>
     </footer>
-  )
+  );
 }
 
 export default Attribution;
