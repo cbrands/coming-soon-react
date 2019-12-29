@@ -1,5 +1,6 @@
 .email-form {
-  margin: 50px auto;
+  margin: 50px auto 90px auto;
+  width: 80%;
 }
 
 .email-input {
@@ -7,9 +8,11 @@
 }
 
 .email {
+  color: var(--pale-blue);
   outline: 0;
-  width: 80%;
+  width: 100%;
   font-size: 1.1rem;
+  font-weight: 300;
   padding: 18px;
   border: 1px solid var(--pale-blue);
   border-radius: 30px;
@@ -20,8 +23,14 @@
   border-color: var(--light-red);
 }
 
+#warning {
+  visibility: hidden;
+}
+
 .validation-error {
+  text-align: left;
   margin-top: 10px;
+  margin-left: 18px;
   color: var(--light-red);
   font-size: 0.8rem;
   font-weight: 300;
@@ -31,7 +40,7 @@
 .submit {
   outline: 0;
   text-transform: capitalize;
-  width: 80%;
+  width: 100%;
   font-size: 1.1rem;
   font-weight: 600;
   padding: 18px;
@@ -47,4 +56,10 @@
 .submit:focus {
   background-color: var(--pale-blue);
   border: none;
+}
+
+@media (min-width: 700px) {
+  .email-form {
+    display: flex;
+  }
 }
